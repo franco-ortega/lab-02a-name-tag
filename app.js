@@ -1,8 +1,6 @@
 const myInput = document.getElementById("my-new-name")
-myInput.value
 
 const myName = document.getElementById('my-name')
-myName.textContent
 
 const myButton = document.getElementById('my-button')
 
@@ -13,4 +11,24 @@ myButton.addEventListener('click', () => {
 
     myInput.value = '';
 
+})
+
+const myNameTag = document.getElementById('nametag')
+
+const myPinkButton = document.getElementById('my-pink-button')
+
+myPinkButton.addEventListener('click', () => {
+    myNameTag.style.backgroundColor = 'pink';
+})
+
+const myLightGreenButton = document.getElementById('my-lightgreen-button')
+
+myLightGreenButton.addEventListener('click', () => {
+    myNameTag.style.backgroundColor = 'lightgreen';
+})
+
+const myLightBlueButton = document.getElementById('my-lightblue-button')
+
+myLightBlueButton.addEventListener('click', () => {
+    myNameTag.style.backgroundColor = 'lightblue';
 })
